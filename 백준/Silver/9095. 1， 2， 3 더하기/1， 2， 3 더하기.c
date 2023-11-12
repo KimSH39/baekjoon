@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int calculateSum(int N) {
-    int dp[10];
+    int dp[9];
     
     dp[0] = 1;
     dp[1] = 1;
