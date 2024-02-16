@@ -19,7 +19,7 @@ def dfs(idx):
     answer += 1
 
     for i in range(1, N + 1):
-        # 내가 i번째 노드를 방문한 적 없다면 and 해당 노드의 idx가 방문된 적 없다면
+        # 내가 i번째 노드를 방문한 적 없다면 and 해당 노드의 idx가 나랑 연결되어 있다면
         if not visited[i] and graph[idx][i]:
             dfs(i)
 
